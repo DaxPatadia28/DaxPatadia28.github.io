@@ -541,7 +541,23 @@ img{
   }
   .article-grid article {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
+    .article-grid img {
+        width: 80%;
+        height: 80%;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .article-grid article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .article-grid {
